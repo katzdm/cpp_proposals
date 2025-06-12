@@ -3329,17 +3329,6 @@ Education and training are important to help C++ users avoid such sharp edges, b
 
 ## Language
 
-### [intro.defs]{.sref} Terms and definitions {-}
-
-Add `$splice-specifier$` to the list of template argument forms in definition 3.5.
-
-::: std
-**[3.5]{.pnum} argument**
-
-⟨template instantiation⟩ `$constant-expression$`, `$type-id$`, [or]{.rm} `$id-expression$`[, or `$splice-specifier$`]{.addu} in the comma-separated list bounded by the angle brackets
-
-:::
-
 ### [lex.phases]{.sref} Phases of translation {-}
 
 [In addition to changes necessary for this proposal, we are applying the "drive-by fix" of merging phases 7/8, in order to clarify that template instantiation is interleaved with translation. In so doing, we replace the notion of "instantiation units" with a partial ordering among all program constructs in a translation unit.]{.ednote}
